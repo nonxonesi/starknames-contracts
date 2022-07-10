@@ -11,8 +11,6 @@ It's simple. Other Starknet protocols would look up a user's account address thr
 The jarring issue with Starknet is that there is no sense of interopability in the ecosystem, yet. Starknames will serve as the base layer of account names under the mutual bond that dAPPS are incentivised to integrate it.
 
 Credit must go to ENS for their pioneering work in name services' contracts, and significantly, 42 Labs' initial deployment, although they stopped. Live contracts are based off of those same deployments; currently, Starknames is steadily developing more expansive functionalities for Mainnet. Stay tuned!🤫
-### How to use Starknames
-As recent focus has been concentrated in UX, the Starknames website is up and running smoothly! Click [here](https://www.google.com/) to register your own name on testnet.
 ## Usage
 ### Contract Interfacing
 The `contracts/registry/IRegistry.cairo` file contains the Interface spec (`IRegistry`) for the registry contract. To look up, one would call the registry's `get_resolver` or `get_resolver_by_name` functions to retrieve the address of the resolver for that domain.
