@@ -17,6 +17,7 @@ As recent focus has been concentrated in UX, the Starknames website is up and ru
 ## Usage
 ### Contract Interfacing
 The `contracts/registry/IRegistry.cairo` file contains the Interface spec (`IRegistry`) for the registry contract. To look up, one would call the registry's `get_resolver` or `get_resolver_by_name` functions to retrieve the address of the resolver for that domain.
+The `Registry.cairo` contract address is `0x06642df6ff8b3bbeee0a87d65d72424a212fd0a09229c238ab1e1fe9e1ccacf0`, deployed [here](https://goerli.voyager.online/contract/0x06642df6ff8b3bbeee0a87d65d72424a212fd0a09229c238ab1e1fe9e1ccacf0). The `SampleResolver.cairo` contract address is `0x038c8b26c8df1b410c1a355af791464681509b028b2be615f24c8b8039c33b78`, deployed [here](https://goerli.voyager.online/contract/0x038c8b26c8df1b410c1a355af791464681509b028b2be615f24c8b8039c33b78).
 ### Domain resolving
 The resolver for a domain might then provide different data for the domains it resolves. To check if a resolver implements a given method, determine the hash for the method you are interested in and call the resolver's `supports_interface` function. A method's hash is the namehash of the primary getter function, without `func`, implicit args or the colon (see `contracts.name.library.hash_name` for a Cairo implementation and `tests.utils.hash_name` for the Python equivalent). The   `supports_interface` function returns `TRUE` (1) if the function is supported, and `FALSE` (0) if not.
 
