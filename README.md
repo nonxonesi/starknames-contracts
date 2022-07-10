@@ -11,7 +11,7 @@ How is it possible to create this simplification?
 It's simple. Other Starknet protocols would look up a user's account address through the Starknames registry, which would resolve to the user's existing name. Or vice-versa. Through this ecosystem adoption, there will be no need for netizens to even look at their addresses, the bane for onboarding new users from web2. For example, they could legibly observe their name on a scoreboard and profile on one gaming protocol, or perhaps on another NFT marketplace with the same naming records. 
 The jarring issue with Starknet is that there is no sense of interopability in the ecosystem, yet. Starknames will serve as the base layer of account names under the mutual bond that dAPPS are incentivised to integrate it.
 
-Credit must go to [ENS](https://ens.domains/) for their pioneering work in name services' contracts, and significantly, 42 Labs' initial deployment, although they stopped. Live contracts are based off of those same deployments; currently, Starknames is steadily developing more expansive functionalities for Mainnet. Stay tuned!🤫
+Credit must go to ENS for their pioneering work in name services' contracts, and significantly, 42 Labs' initial deployment, although they stopped. Live contracts are based off of those same deployments; currently, Starknames is steadily developing more expansive functionalities for Mainnet. Stay tuned!🤫
 ### How to use Starknames
 As recent focus has been concentrated in UX, the Starknames website is up and running smoothly! Click [here](https://www.google.com/) to register your own name on testnet.
 ## Usage
