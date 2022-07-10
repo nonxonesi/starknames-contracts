@@ -1,5 +1,6 @@
 # Starknames contracts
 Contact TURBO#6141 on Discord.
+![Starknames](starknames.jpg)
 ## ABOUT
 Starknames is the first full-end name service on Starknet! We are live on Testnet and allow users to name and lookup account names. As Starknet has an amazing and emerging gaming/NFT scene, this raises several reasons as to why a name service is even more important here than on L1, and thus, brings along an ecosystem-wide responsibility for creating a sustainable UX environment. 
 #### Why a name service? (SUMMARY)
