@@ -1,8 +1,8 @@
 # Starknet Name Service contracts
 
-## ABOUT
-Starknames is the first fully established name service on Starknet! We are live on Testnet and allow users to name and lookup account names. As Starknet has an amazing and emerging gaming/NFT scene, this raises several reasons as to why a name service is even more important here than on L1, and thus, a ecosystem-wide responsibility for creating a sustainable UX environment. 
-`For any contacts, please message TURBO#6141 on Discord.`
+## ABOUT `For any contacts, please message TURBO#6141 on Discord.`
+Starknames is the first fully established name service on Starknet! We are live on Testnet and allow users to name and lookup account names. As Starknet has an amazing and emerging gaming/NFT scene, this raises several reasons as to why a name service is even more important here than on L1, and thus, brings along an ecosystem-wide responsibility for creating a sustainable UX environment. 
+
 #### Why a name service? (SUMMARY)
 Starknames is important because it simplifies the use of Starknet blockchain addresses.
 Imagine being able to easily remove the need for long addresses like `0x000F3b380EA218688Ca19E3b5F0fds0abAA4faDEd5f5C5803a4173b5Ab314fds`, and simplify your account to `hello.stark`! This is the first major step for onboarding new blockchain users. UX.
