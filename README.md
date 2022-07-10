@@ -21,9 +21,5 @@ The `contracts/registry/IRegistry.cairo` file contains the Interface spec (`IReg
 The resolver for a domain might then provide different data for the domains it resolves. To check if a resolver implements a given method, determine the hash for the method you are interested in and call the resolver's `supports_interface` function. A method's hash is the namehash of the primary getter function, without `func`, implicit args or the colon (see `contracts.name.library.hash_name` for a Cairo implementation and `tests.utils.hash_name` for the Python equivalent). The   `supports_interface` function returns `TRUE` (1) if the function is supported, and `FALSE` (0) if not.
 
 Currently, the following resolver methods are supported:
+`get_starknet_address(namehash : felt) -> (starknet_address : felt)` with hash `2820744738538176835336224571064374651047813236984662977660834172684259369636`. This method resolves a domain name to a Starknet address. Thus, to check if a given resolver provides starknet addresses for a domain, call `supports_interface(2820744738538176835336224571064374651047813236984662977660834172684259369636)`.
 
-<<<<<<< HEAD
-`get_starknet_address(namehash : felt) -> (starknet_address : felt)` with hash `2820744738538176835336224571064374651047813236984662977660834172684259369636`. This method resolves a domain name to a Starknet address. Thus, to check if a given resolver provides starknet addresses for a domain, call `supports_interface(2820744738538176835336224571064374651047813236984662977660834172684259369636)`.
-=======
-`get_starknet_address(namehash : felt) -> (starknet_address : felt)` with hash `2820744738538176835336224571064374651047813236984662977660834172684259369636`. This method resolves a domain name to a Starknet address. Thus, to check if a given resolver provides starknet addresses for a domain, call `supports_interface(2820744738538176835336224571064374651047813236984662977660834172684259369636)`.
->>>>>>> 8d68dddd16b239f75c39497f9d72dae4f68f0a63
